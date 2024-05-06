@@ -1,0 +1,48 @@
+header {
+    padding: 20px;
+    background-color: rgba(126, 122, 122, 0.8);
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+    backdrop-filter: blur(3px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent 15%;
+    color: #fffbfb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlink_two{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(254, 0, 0);
+    color: #ffffff;
+    border-left: 1px solid #fffbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink {
+    text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 50px;
+    color: #fffbfb;
+}

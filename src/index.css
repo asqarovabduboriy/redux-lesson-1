@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(233deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0.7227224141609769) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}

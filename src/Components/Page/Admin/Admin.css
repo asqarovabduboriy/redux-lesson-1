@@ -1,0 +1,39 @@
+.sidebar{
+    width: 400px;
+    height: 600px;
+    background-color:  rgba(126, 122, 122, 0.8);
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+    backdrop-filter: blur(3px);
+    background-color: transparent 15%;
+}
+
+.sidebar ul {
+    list-style: none;
+    display: grid;
+    grid-gap: 25px;
+    justify-content: center;
+    padding-top: 50px;
+   
+}
+
+.active_li{
+    text-decoration: none;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+}
+
+.active_li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+
+
+}
+
+.admin{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
