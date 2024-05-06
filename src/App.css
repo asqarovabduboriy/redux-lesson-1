@@ -6,12 +6,14 @@
 }
 
 .card {
-    width: 200px;
+    width: 215px;
     border-radius: 4px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid rgba(119, 118, 118, 0.5);
     padding: 10px;
-    background-color: #ccc;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
 }
 
 .card img {
@@ -36,6 +38,10 @@
     margin-top: 10px;
 }
 
-
-
+.Wrapper_delet{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
 

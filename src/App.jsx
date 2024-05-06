@@ -8,8 +8,11 @@ import Home from "./Components/Page/Home/Home";
 import Bg from "./Components/Bg/Bg";
 import Create from "./Components/Page/Admin/Create/Create";
 import Delete from "./Components/Page/Admin/Delete/Delete";
-
+import { useState } from "react";
 function App() {
+
+  const [loading, setLoading] = useState(false);
+
   return (
     <>
       <Bg />
@@ -20,7 +23,7 @@ function App() {
         </Route>
         <Route path="/admin" element={<Admin />}>
           <Route path="create" element={<Create />} />
-          <Route path="delete" element={<Delete />} />
+          <Route path="delete" element={<Delete loading={loading} setLoading={setLoading} />} />
         </Route>
       </Routes>
       <ToastContainer />

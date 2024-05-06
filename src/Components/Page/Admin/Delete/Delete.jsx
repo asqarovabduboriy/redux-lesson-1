@@ -48,8 +48,8 @@ const Delete = () => {
     <>
       <div className="container">
         <h2 className="title">Delete</h2>
-        <div className="Wrapper">
-          {users}
+        <div className="Wrapper_delet">
+          { users}
         </div>
       </div>
     </>

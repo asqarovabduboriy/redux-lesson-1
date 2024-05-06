@@ -3,6 +3,9 @@
     justify-content: center;
     grid-gap: 15px;
 }
+.wrapper_creat{
+    height: 100vh;
+}
 
 .form_container {
     width: 400px;
@@ -32,6 +35,8 @@ input:focus {
 .form label{
     font-family: 'Courier New', Courier, monospace;
     color: rgb(81, 78, 78);
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .form button{
@@ -50,5 +55,4 @@ input:focus {
     background-color: rgb(200, 200, 83, 0.7);
     transform: scale(0.95);
     transition: 0.3s;
-
 }

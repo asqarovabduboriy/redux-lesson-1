@@ -32,6 +32,7 @@ const Create = () => {
   return (
     <>
       <div className="container">
+        <div className="wrapper_creat">
         <h2 className="title">Create User</h2>
         <div className="form_container">
           <form onSubmit={handleuser} className="form">
@@ -67,6 +68,7 @@ const Create = () => {
             />
             <button>Create</button>
           </form>
+        </div>
         </div>
       </div>
     </>
